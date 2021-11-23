@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.card-plan {
+  text-align: center;
+}
+
+.box{
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 550px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+
+.text-muted{
+  opacity: 0.5;
 }
